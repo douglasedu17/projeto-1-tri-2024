@@ -1,48 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus objetivos do ano</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
+
 <body>
     <section class="conteudo-principal">
-        <h2 class="titulo-principal">Metas do ano<span>_</span></h2>
-    <div class="conteudo">
-<div class="botoes">
-    <button class="botao ativo">Matar o Darlan </button>
-    <button class="botao">Surrar o Denis</button>
-    <button class="botao">Ter uma facção</button>
-    <button class="botao">Começar no trafico</button>
-</div>
-    <div class="abas-textos">
-        <div class="aba-conteudo">
-            <h3 class="aba-conteudo-titulo-principal">Usar uma faca</h3>
-            <h4 class="aba-conteudo-titulo-secundario">Comprar no Junin</h4>
-            <div class="contador"></div>
+        <h2 class="titulo-principal">começar uma facção.<span>_</span></h2>
+        <div class="conteudo">
+            <div class="botoes">
+                <button class="botao ativo">vender pod</button>
+                <button class="botao">matar alguém</button>
+                <button class="botao">matar o darlan</button>
+                <button class="botao">morrer em paz</button>
+            </div>
+            <div class="abas-textos">
+                <div class="aba-conteudo ativo">
+                    <h3 class="aba-conteudo-titulo-principal">esse a coisa vira ano.</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias0"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas0"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min0"></p>
+                            <p class="contador-digito-texto">min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg0"></p>
+                            <p class="contador-digito-texto">seg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">usar uma glock</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias1"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas1"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min1"></p>
+                            <p class="contador-digito-texto">min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg1"></p>
+                            <p class="contador-digito-texto">seg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">usar uma faca</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias2"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas2"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min2"></p>
+                            <p class="contador-digito-texto">min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg2"></p>
+                            <p class="contador-digito-texto">seg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">levar mais 100 junto</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias3"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas3"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min3"></p>
+                            <p class="contador-digito-texto">min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg3"></p>
+                            <p class="contador-digito-texto">seg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="aba-conteudo">
-            <h3 class="aba-conteudo-titulo-principal">Usar cabo de vassoura</h3>
-            <h4 class="aba-conteudo-titulo-secundario">Pegar em casa </h4>
-            <div class="contador"></div>
-        </div>
-        <div class="aba-conteudo">
-            <h3 class="aba-conteudo-titulo-principal">Conseguir policiais corruptos</h3>
-            <h4 class="aba-conteudo-titulo-secundario">Conseguir mais capangas</h4>
-            <div class="contador"></div>
-        </div>
-        <div class="aba-conteudo">
-            <h3 class="aba-conteudo-titulo-principal">Conseguir um fornecedor</h3>
-            <h4 class="aba-conteudo-titulo-secundario">E armas kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</h4>
-            <div class="contador"></div>
-        </div>
-    </div>
-</div>
-
-</section>
-<script src="main.js"></script>
+    </section>
+    <script src="main.js"></script>
 </body>
+
 </html>
